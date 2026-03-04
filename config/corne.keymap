@@ -41,19 +41,19 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I       &kp O    &kp P     &kp BSPC
-&td_lshft_caps  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K       &kp L    &kp SEMI  &kp LBKT
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp ESC
-                              &kp LALT  &mo 2  &kp SPACE    &kp RET  &mo 1  &kp INSERT
+&kp TAB         &mt Q NUMBER_1  &mt W NUMBER_2  &mt E NUMBER_3  &mt R NUMBER_4  &mt T NUMBER_5    &mt Y NUMBER_6  &mt U NUMBER_7  &mt I NUMBER_8  &mt O NUMBER_9  &mt P NUMBER_0  &kp BSPC
+&td_lshft_caps  &kp A           &kp S           &kp D           &kp F           &kp G             &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp LBKT
+&kp LCTRL       &kp Z           &kp X           &kp C           &kp V           &kp B             &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp ESC
+                                                &kp LALT        &mo 2           &kp SPACE         &kp RET         &mo 1           &kp INSERT
             >;
         };
 
         lower_layer {
             bindings = <
-&kp TAB               &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4          &kp N5                   &kp NUMBER_6      &kp N7             &kp N8    &kp N9    &kp N0          &kp DELETE
-&td_lshft_caps        &none         &none          &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none     &none     &kp UP_ARROW    &kp KP_DIVIDE
-&kp NON_US_BACKSLASH  &kp SLASH     &kp LESS_THAN  &kp GREATER_THAN  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES        &kp COMMA         &kp DOT            &none     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
-                                                   &kp LGUI          &trans                &kp SPACE                &kp RET           &trans             &kp RALT
+&kp TAB               &mt LC(NUMBER_1) EXCL  &mt NUMBER_2 AT_SIGN  &mt NUMBER_3 POUND  &mt NUMBER_4 DOLLAR   &mt N5 PERCENT           &mt NUMBER_6 AMPERSAND  &mt N7 SLASH       &mt N8 LEFT_PARENTHESIS  &mt N9 RIGHT_PARENTHESIS  &mt N0 EQUAL    &kp DELETE
+&td_lshft_caps        &none                  &none                 &none               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACKET        &kp RIGHT_BRACKET  &kp QUESTION             &none                     &kp UP_ARROW    &kp KP_DIVIDE
+&kp NON_US_BACKSLASH  &kp SLASH              &kp LESS_THAN         &kp GREATER_THAN    &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES        &kp COMMA               &kp DOT            &mt MINUS UNDERSCORE     &kp LEFT                  &kp DOWN_ARROW  &kp RIGHT
+                                                                   &kp LGUI            &trans                &kp SPACE                &kp RET                 &trans             &kp RALT
             >;
         };
 
