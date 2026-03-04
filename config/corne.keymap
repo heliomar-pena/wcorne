@@ -62,16 +62,16 @@
 
         lower_layer {
             bindings = <
-&kp TAB         &mt NUMBER_1 EXCL  &mt NUMBER_2 AT_SIGN  &mt NUMBER_3 POUND   &mt NUMBER_4 DOLLAR                     &mt N5 PERCENT                    &mt NUMBER_6 AMPERSAND          &mt N7 SLASH  &mt N8 LEFT_PARENTHESIS  &mt N9 RIGHT_PARENTHESIS  &mt N0 EQUAL  &kp DELETE
-&td_lshft_caps  &none              &none                 &none                &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE        &none                           &kp LEFT      &kp UP_ARROW             &kp DOWN                  &kp RIGHT     &kp KP_DIVIDE
-&none           &none              &none                 &mt BACKSLASH SLASH  &mt GREATER_THAN LESS_THAN              &mt DOUBLE_QUOTES SINGLE_QUOTE    &mt RIGHT_BRACKET LEFT_BRACKET  &kp QUESTION  &mt SEMI COMMA           &mt COLON PERIOD          &none         &none
+&kp TAB         &bettermt NUMBER_1 EXCL  &bettermt NUMBER_2 AT_SIGN  &bettermt NUMBER_3 POUND   &bettermt NUMBER_4 DOLLAR                     &bettermt N5 PERCENT                    &bettermt NUMBER_6 AMPERSAND          &bettermt N7 SLASH  &bettermt N8 LEFT_PARENTHESIS  &bettermt N9 RIGHT_PARENTHESIS  &bettermt N0 EQUAL  &kp DELETE
+&td_lshft_caps  &none              &none                 &none                &bettermt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &bettermt RIGHT_BRACE LEFT_BRACE        &none                           &kp LEFT      &kp UP_ARROW             &kp DOWN                  &kp RIGHT     &kp KP_DIVIDE
+&none           &none              &none                 &bettermt BACKSLASH SLASH  &bettermt GREATER_THAN LESS_THAN              &bettermt DOUBLE_QUOTES SINGLE_QUOTE    &bettermt RIGHT_BRACKET LEFT_BRACKET  &kp QUESTION  &bettermt SEMI COMMA           &bettermt COLON PERIOD          &none         &none
                                                          &kp LGUI             &trans                                  &kp SPACE                         &kp RET                         &trans        &kp RALT
             >;
         };
 
         raise_layer {
             bindings = <
-&kp C_PLAY_PAUSE  &mt F1 C_MUTE  &mt F2 C_VOLUME_DOWN  &mt F3 C_VOLUME_UP  &mt F4 C_BRIGHTNESS_DEC  &mt F5 C_BRIGHTNESS_INC    &kp F6           &kp F7           &kp F8           &kp F9           &kp MINUS     &kp ASTERISK
+&kp C_PLAY_PAUSE  &bettermt F1 C_MUTE  &bettermt F2 C_VOLUME_DOWN  &bettermt F3 C_VOLUME_UP  &bettermt F4 C_BRIGHTNESS_DEC  &bettermt F5 C_BRIGHTNESS_INC    &kp F6           &kp F7           &kp F8           &kp F9           &kp MINUS     &kp ASTERISK
 &kp LSHFT         &bt BT_PRV     &bt BT_NXT            &bt BT_CLR          &kp ASTERISK             &kp LEFT_PARENTHESIS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &kp UP_ARROW  &kp KP_DIVIDE
 &kp LCTRL         &trans         &trans                &trans              &kp UNDER                &kp EXCLAMATION            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &td_left_home    &kp DOWN      &td_right_end
                                                        &kp LGUI            &trans                   &kp SPACE                  &kp RET          &trans           &kp RALT
@@ -80,7 +80,7 @@
 
         layer_5 {
             bindings = <
-&kp C_PLAY_PAUSE  &mt F1 C_MUTE  &mt F2 C_VOLUME_DOWN  &mt F3 C_VOLUME_UP  &mt F4 C_BRIGHTNESS_DEC  &mt F5 C_BRIGHTNESS_INC    &kp F6           &kp F7           &kp F8           &kp F9           &kp MINUS     &kp ASTERISK
+&kp C_PLAY_PAUSE  &bettermt F1 C_MUTE  &bettermt F2 C_VOLUME_DOWN  &bettermt F3 C_VOLUME_UP  &bettermt F4 C_BRIGHTNESS_DEC  &bettermt F5 C_BRIGHTNESS_INC    &kp F6           &kp F7           &kp F8           &kp F9           &kp MINUS     &kp ASTERISK
 &kp LSHFT         &trans         &trans                &trans              &kp ASTERISK             &kp LEFT_PARENTHESIS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &kp UP_ARROW  &kp KP_DIVIDE
 &kp LCTRL         &trans         &trans                &trans              &kp UNDER                &kp EXCLAMATION            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LEFT         &kp DOWN      &kp RIGHT
                                                        &kp LGUI            &trans                   &kp SPACE                  &kp RET          &trans           &kp RALT
