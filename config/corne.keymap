@@ -41,28 +41,28 @@
 
         default_layer {
             bindings = <
-&mt TAB GRAVE   &mt Q NUMBER_1  &mt W NUMBER_2  &mt E NUMBER_3  &mt R NUMBER_4  &mt T NUMBER_5    &mt Y NUMBER_6  &mt U NUMBER_7  &mt I NUMBER_8  &mt O NUMBER_9  &mt P NUMBER_0  &kp BSPC
-&td_lshft_caps  &kp A           &kp S           &kp D           &kp F           &kp G             &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp LBKT
-&kp LCTRL       &kp Z           &kp X           &kp C           &kp V           &kp B             &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp ESC
-                                                &kp LALT        &mo 2           &kp SPACE         &kp RET         &mo 1           &kp INSERT
+&mt TAB GRAVE   &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T     &mt NUMBER_6 Y  &mt NUMBER_7 U  &mt NUMBER_8 I  &mt NUMBER_9 O  &mt P NUMBER_0  &kp BSPC
+&td_lshft_caps  &kp A           &kp S           &kp D           &kp F           &kp G        &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp LBKT
+&kp LCTRL       &kp Z           &kp X           &kp C           &kp V           &kp B        &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp ESC
+                                                &kp LALT        &mo 2           &kp SPACE    &kp RET         &mo 1           &kp INSERT
             >;
         };
 
         lower_layer {
             bindings = <
-&kp TAB         &mt LC(NUMBER_1) EXCL  &mt NUMBER_2 AT_SIGN  &mt NUMBER_3 POUND   &mt NUMBER_4 DOLLAR                     &mt N5 PERCENT                    &mt NUMBER_6 AMPERSAND  &mt N7 SLASH       &mt N8 LEFT_PARENTHESIS  &mt N9 RIGHT_PARENTHESIS  &mt N0 EQUAL  &kp DELETE
-&td_lshft_caps  &none                  &none                 &none                &mt LEFT_PARENTHESIS RIGHT_PARENTHESIS  &mt LEFT_BRACE RIGHT_BRACE        &none                   &kp LEFT           &kp UP_ARROW             &kp DOWN                  &kp RIGHT     &kp KP_DIVIDE
-&none           &none                  &none                 &mt SLASH BACKSLASH  &mt LESS_THAN GREATER_THAN              &mt DOUBLE_QUOTES SINGLE_QUOTE    &kp LEFT_BRACKET        &kp RIGHT_BRACKET  &kp QUESTION             &kp COMMA                 &kp DOT       &mt MINUS UNDERSCORE
-                                                             &kp LGUI             &trans                                  &kp SPACE                         &kp RET                 &trans             &kp RALT
+&kp TAB         &mt NUMBER_1 EXCL  &mt NUMBER_2 AT_SIGN  &mt NUMBER_3 POUND   &mt NUMBER_4 DOLLAR                     &mt N5 PERCENT                    &mt NUMBER_6 AMPERSAND          &mt N7 SLASH  &mt N8 LEFT_PARENTHESIS  &mt N9 RIGHT_PARENTHESIS  &mt N0 EQUAL  &kp DELETE
+&td_lshft_caps  &none              &none                 &none                &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE        &none                           &kp LEFT      &kp UP_ARROW             &kp DOWN                  &kp RIGHT     &kp KP_DIVIDE
+&none           &none              &none                 &mt BACKSLASH SLASH  &mt GREATER_THAN LESS_THAN              &mt DOUBLE_QUOTES SINGLE_QUOTE    &mt RIGHT_BRACKET LEFT_BRACKET  &kp QUESTION  &mt SEMI COMMA           &mt COLON PERIOD          &none         &none
+                                                         &kp LGUI             &trans                                  &kp SPACE                         &kp RET                         &trans        &kp RALT
             >;
         };
 
         raise_layer {
             bindings = <
 &kp C_PLAY_PAUSE  &mt F1 C_MUTE  &mt F2 C_VOLUME_DOWN  &mt F3 C_VOLUME_UP  &mt F4 C_BRIGHTNESS_DEC  &mt F5 C_BRIGHTNESS_INC    &kp F6           &kp F7           &kp F8           &kp F9           &kp MINUS     &kp ASTERISK
-&kp LSHFT         &bt BT_PRV      &bt BT_NXT  &bt BT_CLR  &kp ASTERISK       &kp LEFT_PARENTHESIS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &kp UP_ARROW  &kp KP_DIVIDE
-&kp LCTRL         &trans          &trans      &trans      &kp UNDER          &kp EXCLAMATION         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &td_left_home    &kp DOWN      &td_right_end
-                                              &kp LGUI    &trans             &kp SPACE               &kp RET          &trans           &kp RALT
+&kp LSHFT         &bt BT_PRV     &bt BT_NXT            &bt BT_CLR          &kp ASTERISK             &kp LEFT_PARENTHESIS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0  &kp UP_ARROW  &kp KP_DIVIDE
+&kp LCTRL         &trans         &trans                &trans              &kp UNDER                &kp EXCLAMATION            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &td_left_home    &kp DOWN      &td_right_end
+                                                       &kp LGUI            &trans                   &kp SPACE                  &kp RET          &trans           &kp RALT
             >;
         };
 
