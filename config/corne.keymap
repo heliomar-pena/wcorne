@@ -41,10 +41,10 @@
 
         default_layer {
             bindings = <
-&mt TAB GRAVE   &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T     &mt NUMBER_6 Y  &mt NUMBER_7 U  &mt NUMBER_8 I  &mt NUMBER_9 O  &mt P NUMBER_0  &kp BSPC
-&td_lshft_caps  &kp A           &kp S           &kp D           &kp F           &kp G        &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp LBKT
-&kp LCTRL       &kp Z           &kp X           &kp C           &kp V           &kp B        &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp ESC
-                                                &kp LALT        &mo 2           &kp SPACE    &kp RET         &mo 1           &kp INSERT
+&mt GRAVE TAB   &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T     &mt NUMBER_6 Y  &mt NUMBER_7 U  &mt NUMBER_8 I  &mt NUMBER_9 O  &mt P NUMBER_0  &kp BSPC
+&td_lshft_caps  &kp A           &kp S           &kp D           &kp F           &kp G        &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp RIGHT_SHIFT
+&kp LCTRL       &kp Z           &kp X           &kp C           &kp V           &kp B        &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp ENTER
+                                                &kp LALT        &mo 2           &kp SPACE    &kp RET         &mo 1           &kp ESCAPE
             >;
         };
 
