@@ -6,14 +6,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+    - name: helium
+      url-base: https://github.com/heliomar-pena
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: nice-view-mod                 #new entry
-      remote: gpeye                       #new entry
-      revision: main                      #new entry
+    - name: nice-view-mod
+      remote: helium
+      revision: main
   self:
     path: config
