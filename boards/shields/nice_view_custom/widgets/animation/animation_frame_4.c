@@ -17,11 +17,11 @@
 #define LV_ATTRIBUTE_MEM_ALIGN
 #endif
 
-#ifndef LV_ATTRIBUTE_IMG_AKUMA_DITHER_4
-#define LV_ATTRIBUTE_IMG_AKUMA_DITHER_4
+#ifndef LV_ATTRIBUTE_IMG_ANIMATION_FRAME_4
+#define LV_ATTRIBUTE_IMG_ANIMATION_FRAME_4
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA_DITHER_4 uint8_t akuma_dither_4_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANIMATION_FRAME_4 uint8_t animation_frame_4_map[] = {
   0x00, 0x00, 0x00, 0xff, 	/*Color of index 1*/
   0xff, 0xff, 0xff, 0xff, 	/*Color of index 0*/
 
@@ -95,12 +95,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_AKUMA_DIT
   0x70, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t akuma_dither_4 = {
+const lv_img_dsc_t animation_frame_4 = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1232,
-  .data = akuma_dither_4_map,
+  .data = animation_frame_4_map,
 };

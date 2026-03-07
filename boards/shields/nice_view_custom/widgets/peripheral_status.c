@@ -26,16 +26,16 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 LV_IMG_DECLARE(balloon);
 LV_IMG_DECLARE(mountain);
 
-LV_IMG_DECLARE(akuma_dither_1);
-LV_IMG_DECLARE(akuma_dither_2);
-LV_IMG_DECLARE(akuma_dither_3);
-LV_IMG_DECLARE(akuma_dither_4);
+LV_IMG_DECLARE(animation_frame_1);
+LV_IMG_DECLARE(animation_frame_2);
+LV_IMG_DECLARE(animation_frame_3);
+LV_IMG_DECLARE(animation_frame_4);
 
 const lv_img_dsc_t *anim_imgs[] = {
-  &akuma_dither_1,
-  &akuma_dither_2,
-  &akuma_dither_3,
-  &akuma_dither_4
+  &animation_frame_1,
+  &animation_frame_2,
+  &animation_frame_3,
+  &animation_frame_4
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
