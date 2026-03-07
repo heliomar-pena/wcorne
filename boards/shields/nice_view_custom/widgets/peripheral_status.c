@@ -36,7 +36,6 @@ LV_IMG_DECLARE(animation_frame_7);
 LV_IMG_DECLARE(animation_frame_8);
 LV_IMG_DECLARE(animation_frame_9);
 LV_IMG_DECLARE(animation_frame_10);
-LV_IMG_DECLARE(animation_frame_11);
 
 
 const lv_img_dsc_t *anim_imgs[] = {
@@ -49,8 +48,7 @@ const lv_img_dsc_t *anim_imgs[] = {
   &animation_frame_7,
   &animation_frame_8,
   &animation_frame_9,
-  &animation_frame_10,
-  &animation_frame_11
+  &animation_frame_10
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
@@ -153,8 +151,6 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     lv_animimg_set_duration(art, 800);
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
     lv_animimg_start(art);
-
-    // lv_obj_set_style_transform_angle(art, 900, 0);  // 90°
 
     lv_obj_align(art, LV_ALIGN_TOP_LEFT, 0, 0);
 
