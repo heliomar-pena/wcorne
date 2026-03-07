@@ -36,6 +36,7 @@ LV_IMG_DECLARE(animation_frame_7);
 LV_IMG_DECLARE(animation_frame_8);
 LV_IMG_DECLARE(animation_frame_9);
 LV_IMG_DECLARE(animation_frame_10);
+LV_IMG_DECLARE(animation_frame_11);
 
 
 const lv_img_dsc_t *anim_imgs[] = {
@@ -48,7 +49,8 @@ const lv_img_dsc_t *anim_imgs[] = {
   &animation_frame_7,
   &animation_frame_8,
   &animation_frame_9,
-  &animation_frame_10
+  &animation_frame_10,
+  &animation_frame_11
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
