@@ -30,12 +30,26 @@ LV_IMG_DECLARE(animation_frame_1);
 LV_IMG_DECLARE(animation_frame_2);
 LV_IMG_DECLARE(animation_frame_3);
 LV_IMG_DECLARE(animation_frame_4);
+LV_IMG_DECLARE(animation_frame_5);
+LV_IMG_DECLARE(animation_frame_6);
+LV_IMG_DECLARE(animation_frame_7);
+LV_IMG_DECLARE(animation_frame_8);
+LV_IMG_DECLARE(animation_frame_9);
+LV_IMG_DECLARE(animation_frame_10);
+
 
 const lv_img_dsc_t *anim_imgs[] = {
   &animation_frame_1,
   &animation_frame_2,
   &animation_frame_3,
-  &animation_frame_4
+  &animation_frame_4,
+  &animation_frame_5,
+  &animation_frame_6,
+  &animation_frame_7,
+  &animation_frame_8,
+  &animation_frame_9,
+  &animation_frame_10
+};
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
