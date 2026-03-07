@@ -50,7 +50,6 @@ const lv_img_dsc_t *anim_imgs[] = {
   &animation_frame_9,
   &animation_frame_10
 };
-};
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
